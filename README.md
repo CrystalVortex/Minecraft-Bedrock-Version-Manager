@@ -6,5 +6,5 @@ To use this make sure python 3 and above is installed:
 https://python.org
 
 How to use:
-Delete your current version on mcbe (Take backups of your worlds)
+Open versions.py. Delete your current version on mcbe (Take backups of your worlds).
 and double click on the appx file that you downloaded!
