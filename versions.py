@@ -2,9 +2,12 @@ from tkinter import *
 from tkinter.ttk import *
 import webbrowser
 
-root = Tk()
+ws = Tk()
 
-root.geometry('512x512')  
+ws.title('Minecraft Version Launcher')
+
+ws.geometry('512x512')
+
 
 
 new = 1
@@ -24,6 +27,7 @@ url5 = "https://download2267.mediafire.com/n1susudxioqg/kmelqlxa658388m/Minecraf
 
 new = 6 
 url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
+
 
 
 def openweb():
@@ -46,22 +50,24 @@ def openweb6():
 
 
 
-Btn = Button(root, text = "Download 1.18.30 64 bit",command=openweb)
+Btn = Button(ws, text = "Download 1.18.30 64 bit",command=openweb)
 Btn.pack()
 
-Btn = Button(root, text = "Download 1.18.12 64 bit",command=openweb3)
+Btn = Button(ws, text = "Download 1.18.12 64 bit",command=openweb3)
 Btn.pack()
 
-Btn = Button(root, text = "Download 1.18.10 64 bit",command=openweb2)
+Btn = Button(ws, text = "Download 1.18.10 64 bit",command=openweb2)
 Btn.pack()
 
-Btn = Button(root,text = "Download 1.18.2.3 64 bit",command=openweb4)
+Btn = Button(ws,text = "Download 1.18.2.3 64 bit",command=openweb4)
 Btn.pack()
 
-Btn = Button(root,text = "Download 1.18.1 64 bit",command=openweb5)
+Btn = Button(ws,text = "Download 1.18.1 64 bit",command=openweb5)
 Btn.pack()
 
-Btn = Button(root,text= "Download 1.18 64 bit",command=openweb6)
+Btn = Button(ws,text= "Download 1.18 64 bit",command=openweb6)
+Btn.pack()
 
-root.mainloop()
 
+
+ws.mainloop()
