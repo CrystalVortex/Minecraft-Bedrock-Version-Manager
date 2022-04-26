@@ -1,6 +1,20 @@
+from email.utils import localtime
+
 from tkinter import *
+
 from tkinter.ttk import *
+
 import webbrowser
+
+import datetime
+
+import time
+
+print("Starting Application...")
+
+time.sleep(3)
+
+print("[LOG]:Application started")
 
 ws = Tk()
 
@@ -32,21 +46,33 @@ url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraf
 
 def openweb():
     webbrowser.open(url1,new=new)
+    print("[LOG]:You clicked download 1.18.30 at:")
+    print(datetime.datetime.now())
 
 def openweb2():
     webbrowser.open(url2,new=new)
+    print("[LOG]:You clicked download 1.18.10 at:")
+    print(datetime.datetime.now())
 
 def openweb3():
     webbrowser.open(url3,new=new)
+    print("[LOG]:You clicked download 1.18.12.1 at:")
+    print(datetime.datetime.now())
 
 def openweb4():
     webbrowser.open(url4,new=new)
+    print("[LOG]:You clicked download 1.18.2.3 at:")
+    print(datetime.datetime.now())
 
 def openweb5():
     webbrowser.open(url5,new=new)
+    print("[LOG]:You clicked download 1.18.1.2 at:")
+    print(datetime.datetime.now())
 
 def openweb6():
     webbrowser.open(url6,new=new)
+    print("[LOG]:You clicked download 1.18 at:")
+    print(datetime.datetime.now())
 
 
 
@@ -71,3 +97,15 @@ Btn.pack()
 
 
 ws.mainloop()
+
+print("[LOG]:Application closed!")
+
+time.sleep(1)
+
+print("[LOG]:Press enter to continue")
+
+input()
+
+
+
+
