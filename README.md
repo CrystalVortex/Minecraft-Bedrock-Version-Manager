@@ -14,6 +14,8 @@ To find your worlds paste this in your search bar:
 
 More info can be found here: https://windowsloop.com/find-minecraft-windows-10-edition-save-location/
 
+Report any issues/problems in issues
+
 Possible upcoming features:
 
 
