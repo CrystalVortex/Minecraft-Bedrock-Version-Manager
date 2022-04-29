@@ -32,12 +32,6 @@ logger.warning('[LOG]:Application started')
 
 logger.warning('[LOG]:Window Name:Minecraft Version Launcher (512x512)')
 
-ws = Tk()
-
-ws.title('Minecraft Version Launcher')
-
-ws.geometry('512x512')
-
 
 
 new = 1
@@ -57,6 +51,19 @@ url5 = "https://download2267.mediafire.com/n1susudxioqg/kmelqlxa658388m/Minecraf
 
 new = 6 
 url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
+new = 7 
+url7 = "https://download2329.mediafire.com/qxrgkl0b0gkg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
+
+
+print("[LOG]:Versions loaded")
+logger.warning('[LOG]:Versions loaded')
+
+
+ws = Tk()
+
+ws.title('Minecraft Version Launcher')
+
+ws.geometry('512x512')
 
 
 
@@ -97,7 +104,15 @@ def openweb6():
     print(datetime.datetime.now())
     logger.warning('[LOG]:You clicked download 1.18')
 
+def openweb7():
+    webbrowser.open(url7,new=new)
+    print("[LOG]:You clicked download 1.18.31 at:")
+    print(datetime.datetime.now())
+    logger.warning('[LOG]:You clicked download 1.18.31')    
 
+
+Btn = Button(ws, text = "Download 1.18.31 64 bit",command=openweb7)
+Btn.pack()
 
 Btn = Button(ws, text = "Download 1.18.30 64 bit",command=openweb)
 Btn.pack()
@@ -134,5 +149,4 @@ logger.warning('[LOG]:Press enter to continue')
 input()
 
 logger.warning('[LOG]:Application closed...')
-
 
