@@ -36,7 +36,7 @@ Doesnt use a web browser
 
 
 
-Better GUI
+Better GUI (almost complete)
 
 
 
