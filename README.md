@@ -2,6 +2,9 @@
 You can choose multiple versions of Minecraft bedrock to play (mostly x86_64 versions) (32 bit is not supported)
 New versions to use coming soon!
 
+If the file crashes when trying to open it use the start.cmd file instead.
+
+
 To use this make sure python 3.9 (ore the latest on the website) and above is installed:
 https://python.org
 
@@ -15,6 +18,7 @@ To find your worlds paste this in your search bar:
 More info can be found here: https://windowsloop.com/find-minecraft-windows-10-edition-save-location/
 
 Report any issues/problems in issues
+
 
 Possible upcoming features:
 
