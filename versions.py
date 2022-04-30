@@ -2,6 +2,10 @@ from email.utils import localtime
 
 from tkinter import *
 
+import tkinter
+
+from tkinter import ttk
+
 from tkinter.ttk import *
 
 import webbrowser
@@ -11,6 +15,7 @@ import datetime
 import time
 
 import logging
+
 
 logger = logging.getLogger('Vlauncher')
 
@@ -32,8 +37,6 @@ logger.warning('[LOG]:Application started')
 
 logger.warning('[LOG]:Window Name:Minecraft Version Launcher (512x512)')
 
-
-
 new = 1
 url1 = "https://download2344.mediafire.com/7lo7d4se8m0g/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
 
@@ -53,18 +56,6 @@ new = 6
 url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
 new = 7 
 url7 = "https://download2329.mediafire.com/qxrgkl0b0gkg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
-
-
-print("[LOG]:Versions loaded")
-logger.warning('[LOG]:Versions loaded')
-
-
-ws = Tk()
-
-ws.title('Minecraft Version Launcher')
-
-ws.geometry('512x512')
-
 
 
 def openweb():
@@ -108,33 +99,81 @@ def openweb7():
     webbrowser.open(url7,new=new)
     print("[LOG]:You clicked download 1.18.31 at:")
     print(datetime.datetime.now())
-    logger.warning('[LOG]:You clicked download 1.18.31')    
+    logger.warning('[LOG]:You clicked download 1.18.31')
+
+print("[LOG]:Versions loaded")
+logger.warning('[LOG]:Versions loaded')
+
+root = Tk()
+
+root.title('Minecraft Version Launcher')
+
+root.geometry('412x312')
+
+main_frame= Frame(root)
+main_frame.pack()
+
+a_canvas = Canvas(main_frame)
+a_canvas.pack(side=LEFT, fill=BOTH, expand=1)
+
+b_scrollbar = ttk.Scrollbar(main_frame, orient=VERTICAL, command=a_canvas.yview)
+b_scrollbar.pack(side=RIGHT,fill=Y)
+
+a_canvas.configure(yscrollcommand=b_scrollbar.set)
+a_canvas.bind('<Configure>', lambda e: a_canvas.configure(scrollregion= a_canvas.bbox("all")))
+
+second_frame = Frame(a_canvas)
+
+a_canvas.create_window((11,11), window=second_frame, anchor="nw")
 
 
-Btn = Button(ws, text = "Download 1.18.31 64 bit",command=openweb7)
-Btn.pack()
 
-Btn = Button(ws, text = "Download 1.18.30 64 bit",command=openweb)
-Btn.pack()
+Label(second_frame, text = 'Minecraft BE Version Launcher', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
 
-Btn = Button(ws, text = "Download 1.18.12 64 bit",command=openweb3)
-Btn.pack()
+root.title('Minecraft Version Launcher')
 
-Btn = Button(ws, text = "Download 1.18.10 64 bit",command=openweb2)
-Btn.pack()
-
-Btn = Button(ws,text = "Download 1.18.2.3 64 bit",command=openweb4)
-Btn.pack()
-
-Btn = Button(ws,text = "Download 1.18.1 64 bit",command=openweb5)
-Btn.pack()
-
-Btn = Button(ws,text= "Download 1.18 64 bit",command=openweb6)
-Btn.pack()
+photo = PhotoImage(file = r"d.png")
 
 
+Label(second_frame, text = '1.18.31', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
 
-ws.mainloop()
+Button(second_frame, text = '1.18.31', command=openweb7, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18.30', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '', command=openweb, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18.12', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '', command=openweb3, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18.10', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '', command=openweb2, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18.2.3', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '', command=openweb4, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18.1.2', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '1.18.1.2', command=openweb5, image = photo).pack(side = TOP)
+
+Label(second_frame, text = '1.18', font =(
+  'Verdana', 15)).pack(side = TOP, pady = 10)
+
+Button(second_frame, text = '1.18', command=openweb6, image = photo).pack(side = TOP)
+
+mainloop()
+
+
 
 print("[LOG]:Application closed!")
 
@@ -149,4 +188,3 @@ logger.warning('[LOG]:Press enter to continue')
 input()
 
 logger.warning('[LOG]:Application closed...')
-
