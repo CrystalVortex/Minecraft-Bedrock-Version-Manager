@@ -1,0 +1,2 @@
+@echo
+.\versions.py
