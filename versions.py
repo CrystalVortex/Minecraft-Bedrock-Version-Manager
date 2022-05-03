@@ -29,7 +29,7 @@ logger.warning('Logging started')
 
 logger.warning('[LOG]:Starting Application...')
 
-time.sleep(3)
+time.sleep(1)
 
 print("[LOG]:Application started")
 
