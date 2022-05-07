@@ -35,7 +35,7 @@ print("[LOG]:Application started")
 
 logger.warning('[LOG]:Application started')
 
-logger.warning('[LOG]:Window Name:Minecraft Version Launcher (512x512)')
+logger.warning('[LOG]:Window Name:Minecraft Version Launcher (412x312)')
 
 new = 1
 url1 = "https://download2344.mediafire.com/7lo7d4se8m0g/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
@@ -106,7 +106,7 @@ logger.warning('[LOG]:Versions loaded')
 
 root = Tk()
 
-root.title('Minecraft Version Launcher')
+root.title('Minecraft BE Version Launcher')
 
 root.geometry('412x312')
 
