@@ -38,24 +38,24 @@ logger.warning('[LOG]:Application started')
 logger.warning('[LOG]:Window Name:Minecraft Version Launcher (412x312)')
 
 new = 1
-url1 = "https://download2344.mediafire.com/7lo7d4se8m0g/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
+url1 = "https://download2344.mediafire.com/rg5teh5qmbdg/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
 
 new = 2
-url2 = "https://download2265.mediafire.com/13ngbxye53ng/j3gn0szp5zriw6z/Microsoft.MinecraftUWP_1.18.1004.0_x86__8wekyb3d8bbwe.Appx"
+url2 = "https://download2265.mediafire.com/vxfo22wp8jyg/j3gn0szp5zriw6z/Microsoft.MinecraftUWP_1.18.1004.0_x86__8wekyb3d8bbwe.Appx"
 
 new = 3
-url3 = "https://download2391.mediafire.com/vembjkpt9kug/zq0pcoqbsfbhvfw/Minecraft-1.18.12.1.Appx"
+url3 = "https://download2391.mediafire.com/v4wa7wj2eg8g/zq0pcoqbsfbhvfw/Minecraft-1.18.12.1.Appx"
 
 new = 4 
-url4 = "https://download2340.mediafire.com/8vts0fml23gg/5o9wz0ltbb6xv5x/Minecraft-1.18.2.3.Appx"
+url4 = "https://download2340.mediafire.com/as1x85bitr2g/5o9wz0ltbb6xv5x/Minecraft-1.18.2.3.Appx"
 
 new = 5
-url5 = "https://download2267.mediafire.com/n1susudxioqg/kmelqlxa658388m/Minecraft-1.18.1.2.Appx"
+url5 = "https://download2267.mediafire.com/qw5rirsov86g/kmelqlxa658388m/Minecraft-1.18.1.2.Appx"
 
 new = 6 
-url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
+url6 = "https://download2390.mediafire.com/nsw0feldf9yg/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
 new = 7 
-url7 = "https://download2329.mediafire.com/qxrgkl0b0gkg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
+url7 = "https://download2329.mediafire.com/qecdsypdadrg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
 
 
 def openweb():
