@@ -1,8 +1,8 @@
 # Minecraft-Bedrock-Version-Manager
-You can choose multiple versions of Minecraft bedrock to play (mostly x86_64 versions) (32 bit is not supported)
+You can choose multiple versions of Minecraft bedrock to play (mostly 64 bit versions)
 New versions to use coming soon!
 
-RUN INSTALL install_dependencies.bat FIRST 
+RUN INSTALL install_dependencies.bat FIRST (after installing python if you dont alrady have it)
 
 
 If the file crashes when trying to open it use the start.cmd file instead.
