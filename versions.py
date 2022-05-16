@@ -1,15 +1,12 @@
-from email.utils import localtime
-from sqlite3 import Row
-import subprocess
-
-from tkinter import *
-
 import tkinter
 
-from tkinter import ttk
+import customtkinter
 
+from email.utils import localtime
 
-from tkinter.ttk import *
+from sqlite3 import Row
+
+import subprocess
 
 import webbrowser
 
@@ -18,27 +15,6 @@ import datetime
 import time
 
 import logging
-
-
-logger = logging.getLogger('Vlauncher')
-
-handler = logging.FileHandler('VLauncher.log')
-
-logger.addHandler(handler)
-
-print("Starting Application...")
-
-logger.warning('Logging started')
-
-logger.warning('[LOG]:Starting Application...')
-
-time.sleep(1)
-
-print("[LOG]:Application started")
-
-logger.warning('[LOG]:Application started')
-
-logger.warning('[LOG]:Window Name:Minecraft Version Launcher (1024x1024)')
 
 new = 1
 url1 = "https://download2344.mediafire.com/7lo7d4se8m0g/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
@@ -59,7 +35,6 @@ new = 6
 url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
 new = 7 
 url7 = "https://download2329.mediafire.com/qxrgkl0b0gkg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
-
 
 def openweb():
     webbrowser.open(url1,new=new)
@@ -104,82 +79,41 @@ def openweb7():
     print(datetime.datetime.now())
     logger.warning('[LOG]:You clicked download 1.18.31')
 
+logger = logging.getLogger('Vlauncher')
 
+handler = logging.FileHandler('VLauncher.log')
 
-print("[LOG]:Versions loaded")
-logger.warning('[LOG]:Versions loaded')
-
-root = Tk()
-
-root.title('Minecraft BE Version Launcher')
-
-root.geometry('1024x1024')
-
-root.configure(bg='black')
-
-
-Label(text = 'Minecraft BE Version Launcher', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
-
-root.title('Minecraft Version Launcher')
-
-photo = PhotoImage(file = r"dwnld.png")
+logger.addHandler(handler)
 
 
 
+customtkinter.set_appearance_mode("dark")  
+customtkinter.set_default_color_theme("blue")  
+
+root_tk = customtkinter.CTk() 
+root_tk.geometry("1024x1024")
 
 
 
-Label(text = '1.18.31', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.31", command=openweb7)
+button.place(relx=0.4, rely=0.0)
 
-Button(text = '1.18.31', command=openweb7, image = photo).pack(side = TOP)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.30", command=openweb)
+button.place(relx=0.4, rely=0.1)
 
-Label(text = '1.18.30', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.12", command=openweb3)
+button.place(relx=0.4, rely=0.2)
 
-Button(text = '', command=openweb, image = photo).pack(side = TOP)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.10", command=openweb2)
+button.place(relx=0.4, rely=0.3)
 
-Label(text = '1.18.12', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.2 ", command=openweb4)
+button.place(relx=0.4, rely=0.4)
 
-Button(text = '', command=openweb3, image = photo).pack(side = TOP)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.1 ", command=openweb5)
+button.place(relx=0.4, rely=0.5)
 
-Label(text = '1.18.10', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18   ", command=openweb6)
+button.place(relx=0.4, rely=0.6)
 
-Button(text = '', command=openweb2, image = photo).pack(side = TOP)
-
-Label(text = '1.18.2.3', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
-
-Button(text = '', command=openweb4, image = photo).pack(side = TOP)
-
-Label(text = '1.18.1.2', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
-
-Button(text = '1.18.1.2', command=openweb5, image = photo).pack(side = TOP)
-
-Label(text = '1.18', font =(
-  'Verdana', 15)).pack(side = TOP, pady = 10)
-
-Button(text = '1.18', command=openweb6, image = photo).pack(side = TOP)
-
-mainloop()
-
-
-
-print("[LOG]:Application closed!")
-
-logger.warning('[LOG]:Application closed!')
-
-time.sleep(1)
-
-print("[LOG]:Press enter to continue")
-
-logger.warning('[LOG]:Press enter to continue')
-
-input()
-
-logger.warning('[LOG]:Application closed...')
-
+root_tk.mainloop()
