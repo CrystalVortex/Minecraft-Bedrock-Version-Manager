@@ -2,6 +2,9 @@
 You can choose multiple versions of Minecraft bedrock to play (mostly x86_64 versions) (32 bit is not supported)
 New versions to use coming soon!
 
+RUN INSTALL install_dependencies.bat FIRST 
+
+
 If the file crashes when trying to open it use the start.cmd file instead.
 
 
