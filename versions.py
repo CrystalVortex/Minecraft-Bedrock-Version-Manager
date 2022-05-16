@@ -95,7 +95,7 @@ logger.warning('starting window (G=1024x1024,WT=Ctk,TH=dark,SDCT=blue)')
 
 
 customtkinter.set_appearance_mode("dark")  
-customtkinter.set_default_color_theme("green")  
+customtkinter.set_default_color_theme("blue")  
 
 root_tk = customtkinter.CTk() 
 
