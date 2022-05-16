@@ -1,1 +1,0 @@
-open install_dependencies.bat first before opening versions.py
