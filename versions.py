@@ -21,24 +21,25 @@ import tkinter.messagebox
 
 
 new = 1
-url1 = "https://download2344.mediafire.com/7lo7d4se8m0g/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
+url1 = "https://download1442.mediafire.com/hps9uekiiojg/p5yxrsv39uvgdo0/Microsoft.MinecraftUWP_1.18.3004.0_x86__8wekyb3d8bbwe.Appx"
 
 new = 2
-url2 = "https://download2265.mediafire.com/13ngbxye53ng/j3gn0szp5zriw6z/Microsoft.MinecraftUWP_1.18.1004.0_x86__8wekyb3d8bbwe.Appx"
+url2 = "https://download2388.mediafire.com/hy5mdh6wemig/j3gn0szp5zriw6z/Microsoft.MinecraftUWP_1.18.1004.0_x86__8wekyb3d8bbwe.Appx"
 
 new = 3
-url3 = "https://download2391.mediafire.com/vembjkpt9kug/zq0pcoqbsfbhvfw/Minecraft-1.18.12.1.Appx"
+url3 = "https://download2391.mediafire.com/xgqv0ppevcjg/zq0pcoqbsfbhvfw/Minecraft-1.18.12.1.Appx"
 
 new = 4 
-url4 = "https://download2340.mediafire.com/8vts0fml23gg/5o9wz0ltbb6xv5x/Minecraft-1.18.2.3.Appx"
+url4 = "https://download2340.mediafire.com/3dey0di3wbdg/5o9wz0ltbb6xv5x/Minecraft-1.18.2.3.Appx"
 
 new = 5
-url5 = "https://download2267.mediafire.com/n1susudxioqg/kmelqlxa658388m/Minecraft-1.18.1.2.Appx"
+url5 = "https://download2273.mediafire.com/mq7cfyzxoqjg/kmelqlxa658388m/Minecraft-1.18.1.2.Appx"
 
 new = 6 
-url6 = "https://download2390.mediafire.com/wa607c69vbug/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
+url6 = "https://download2390.mediafire.com/wz6eg2nsscyg/wjekuyje36e51ql/Minecraft-1.18.0.2.Appx"
 new = 7 
-url7 = "https://download2329.mediafire.com/qxrgkl0b0gkg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
+url7 = "https://download1935.mediafire.com/909odepkbncg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
+
 
 
 
