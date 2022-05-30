@@ -43,7 +43,7 @@ Doesnt use a web browser
 
 
 
-Better GUI (almost complete)
+Better GUI (Complete)
 
 
 
@@ -54,5 +54,5 @@ Better GUI (almost complete)
 
 
 
-Dark theme
+Dark theme (Complete)
 
