@@ -2,6 +2,7 @@
 You can choose multiple versions of Minecraft bedrock to play (mostly 64 bit versions)
 New versions to use coming soon!
 
+# Notice
 RUN install_dependencies.bat FIRST (after installing python if you dont already have it)
 
 
@@ -11,7 +12,7 @@ If the file crashes when trying to open it use the start.cmd file instead.
 To use this make sure python 3.9 (or the latest on the website) and above is installed:
 https://python.org
 
-How to use:
+# How to use:
 Open versions.py. Delete your current version on mcbe (Take backups of your worlds).
 and double click on the appx file that you downloaded!
 
@@ -23,7 +24,7 @@ More info can be found here: https://windowsloop.com/find-minecraft-windows-10-e
 Report any issues/problems in issues
 
 
-Possible upcoming features:
+# Possible upcoming features:
 
 
 
