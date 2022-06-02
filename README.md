@@ -10,7 +10,7 @@ If the file crashes when trying to open it use the start.cmd file instead.
 
 
 To use this make sure python 3.9 (or the latest on the website) and above is installed:
-https://python.org
+https://www.python.org/downloads/
 
 # How to use:
 Open versions.py. Delete your current version on mcbe (Take backups of your worlds).
