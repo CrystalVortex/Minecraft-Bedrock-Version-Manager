@@ -33,7 +33,7 @@ Report any issues/problems in issues
 
 
 
-Doesnt use a web browser
+Doesnt use a web browser (in progress)
 
 
 
