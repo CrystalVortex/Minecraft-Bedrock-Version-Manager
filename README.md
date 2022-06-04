@@ -23,6 +23,9 @@ More info can be found here: https://windowsloop.com/find-minecraft-windows-10-e
 
 Report any issues/problems in issues
 
+# How to update:
+open the Update.py file. This will get the latest version (of minecraft bedrock version manager) wich will include more versions and other updates
+
 
 # Possible upcoming features:
 
