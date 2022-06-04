@@ -36,7 +36,7 @@ open the Update.py file. This will get the latest version (of minecraft bedrock 
 
 
 
-Doesnt use a web browser (in progress)
+Doesnt use a web browser (in progress/coming soon)
 
 
 
