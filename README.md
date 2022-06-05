@@ -10,7 +10,7 @@ New versions to use coming soon!
 If the file crashes when trying to open it use the start.cmd file instead.
 
 
-To use this make sure python 3.9 (or the latest on the website) and above is installed:
+<strong >To use this make sure python 3.9 (or the latest on the website) and above is installed: </strong>
 https://www.python.org/downloads/
 
 # How to use:
