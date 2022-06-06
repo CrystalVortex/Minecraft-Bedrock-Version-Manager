@@ -64,7 +64,7 @@ Dark theme (Complete)
 
 
 # Manual installation of dependencies
-<strong> (It is much easier just using install_dependencies.bat instead) </strong>
+<strong> (It's much easier just using install_dependencies.bat instead) </strong>
 
 ```
 pip3 install customtkinter
