@@ -50,7 +50,12 @@ Doesnt use a web browser (in progress/coming soon)
 
 Better GUI (Complete)
 
+# Manual installation of dependencies
+<strong> (It is much easier just using install_dependencies.bat instead) </strong>
 
+```
+test
+```
 
 
 
