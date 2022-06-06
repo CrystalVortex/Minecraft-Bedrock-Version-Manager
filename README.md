@@ -50,6 +50,19 @@ Doesnt use a web browser (in progress/coming soon)
 
 Better GUI (Complete)
 
+
+
+
+
+
+
+
+
+
+
+Dark theme (Complete)
+
+
 # Manual installation of dependencies
 <strong> (It is much easier just using install_dependencies.bat instead) </strong>
 
@@ -65,8 +78,4 @@ pip3 install requests
 
 
 
-
-
-
-Dark theme (Complete)
 
