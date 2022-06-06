@@ -4,8 +4,6 @@ import customtkinter
 
 from email.utils import localtime
 
-from sqlite3 import Row
-
 import subprocess
 
 import webbrowser
