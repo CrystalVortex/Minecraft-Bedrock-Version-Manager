@@ -54,7 +54,11 @@ Better GUI (Complete)
 <strong> (It is much easier just using install_dependencies.bat instead) </strong>
 
 ```
-test
+pip3 install customtkinter
+```
+
+```
+pip3 install requests
 ```
 
 
