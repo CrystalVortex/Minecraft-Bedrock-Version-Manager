@@ -38,6 +38,9 @@ url6 = "https://download2390.mediafire.com/wz6eg2nsscyg/wjekuyje36e51ql/Minecraf
 new = 7 
 url7 = "https://download1935.mediafire.com/909odepkbncg/tjsgntidc54rru4/Minecraft-1.18.31.4.Appx"
 
+new =8
+url8 = "https://download1514.mediafire.com/vrb2a3jo8teg/t1x8yqadoxe3yqa/MC.1.19.Appx"
+
 
 
 
@@ -83,6 +86,13 @@ def openweb7():
     print(datetime.datetime.now())
     logger.warning('[LOG]:You clicked download 1.18.31')
 
+def openweb8():
+    webbrowser.open(url8,new=new)
+    print("[LOG]:You clicked download 1.19 at:")
+    print(datetime.datetime.now())
+    logger.warning('[LOG]:You clicked download 1.19')
+
+
 logger = logging.getLogger('Vlauncher')
 
 handler = logging.FileHandler('VLauncher.json')
@@ -101,30 +111,31 @@ root_tk = customtkinter.CTk()
 root_tk.geometry("1024x1024")
 
 
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.19.00", command=openweb8)
+button.place(relx=0.4, rely=0.1)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.31", command=openweb7)
-button.place(relx=0.4, rely=0.1)
+button.place(relx=0.4, rely=0.2)
 
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.30", command=openweb)
-button.place(relx=0.4, rely=0.2)
-
-button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.12", command=openweb3)
 button.place(relx=0.4, rely=0.3)
 
-button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.10", command=openweb2)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.12", command=openweb3)
 button.place(relx=0.4, rely=0.4)
 
-button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.2 ", command=openweb4)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.10", command=openweb2)
 button.place(relx=0.4, rely=0.5)
 
-button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.1 ", command=openweb5)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.2 ", command=openweb4)
 button.place(relx=0.4, rely=0.6)
 
-button = customtkinter.CTkButton(master=root_tk, text="Download 1.18   ", command=openweb6)
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.1 ", command=openweb5)
 button.place(relx=0.4, rely=0.7)
+
+button = customtkinter.CTkButton(master=root_tk, text="Download 1.18   ", command=openweb6)
+button.place(relx=0.4, rely=0.8)
 
 root_tk.mainloop()
 
 logger.warning('App closed')
-
