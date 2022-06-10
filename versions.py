@@ -2,7 +2,6 @@ import tkinter
 
 import customtkinter
 
-
 import subprocess
 
 import webbrowser
@@ -16,6 +15,7 @@ import logging
 import requests 
 
 
+from termcolor import colored
 
 
 
@@ -139,7 +139,12 @@ button = customtkinter.CTkButton(master=root_tk, text="Download 1.18   ", comman
 button.place(relx=0.4, rely=0.7)
 
 
-
 root_tk.mainloop()
 
 logger.warning('App closed')
+
+text = colored('App Closed!', 'red', attrs=['reverse', 'blink'])
+  
+print(text)
+
+time.sleep(2)
