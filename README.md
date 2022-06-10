@@ -25,7 +25,7 @@ More info can be found here: https://windowsloop.com/find-minecraft-windows-10-e
 Report any issues/problems in issues
 
 # Supported Versions:
-+ 1.19.0 (First 1.19 versiom)
++ 1.19.0 (First 1.19 version)
 + All Versions of 1.18
 
 # How to update:
