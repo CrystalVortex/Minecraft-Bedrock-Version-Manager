@@ -2,7 +2,6 @@ import tkinter
 
 import customtkinter
 
-from email.utils import localtime
 
 import subprocess
 
@@ -112,31 +111,34 @@ root_tk = customtkinter.CTk()
 
 root_tk.geometry("1024x1024")
 
+root_tk.title("Minecraft Bedrock Version Manager")
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.19.00", command=openweb8)
-button.place(relx=0.4, rely=0.1)
+button.place(relx=0.7, rely=0.1)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.31", command=openweb7)
-button.place(relx=0.4, rely=0.2)
+button.place(relx=0.4, rely=0.1)
 
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.30", command=openweb)
-button.place(relx=0.4, rely=0.3)
+button.place(relx=0.4, rely=0.2)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.12", command=openweb3)
-button.place(relx=0.4, rely=0.4)
+button.place(relx=0.4, rely=0.3)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.10", command=openweb2)
-button.place(relx=0.4, rely=0.5)
+button.place(relx=0.4, rely=0.4)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.2 ", command=openweb4)
-button.place(relx=0.4, rely=0.6)
+button.place(relx=0.4, rely=0.5)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18.1 ", command=openweb5)
-button.place(relx=0.4, rely=0.7)
+button.place(relx=0.4, rely=0.6)
 
 button = customtkinter.CTkButton(master=root_tk, text="Download 1.18   ", command=openweb6)
-button.place(relx=0.4, rely=0.8)
+button.place(relx=0.4, rely=0.7)
+
+
 
 root_tk.mainloop()
 
