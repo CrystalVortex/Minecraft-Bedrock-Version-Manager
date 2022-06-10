@@ -4,7 +4,7 @@ New versions to use coming soon!
 
 # Notice
 
-<strong>RUN install_dependencies.bat FIRST (after installing python if you dont already have it </strong>
+<strong>RUN install_dependencies.bat FIRST (after installing python if you dont already have it) </strong>
 
 
 If the file crashes when trying to open it use the start.cmd file instead.
