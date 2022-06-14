@@ -1,3 +1,0 @@
-@echo off
-title Starting...
-.\versions.py
