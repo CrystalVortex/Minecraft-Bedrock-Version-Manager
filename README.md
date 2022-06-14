@@ -4,17 +4,8 @@ New versions to use coming soon!
 
 # Notice
 
-<strong>RUN install_dependencies.bat FIRST (after installing python if you dont already have it) </strong>
-
-
-If the file crashes when trying to open it use the start.cmd file instead.
-
-
-<strong >To use this make sure python 3.9 (or the latest on the website) and above is installed: </strong>
-https://www.python.org/downloads/
-
 # How to use:
-Open versions.py. Delete your current version on mcbe (Take backups of your worlds).
+Open Launcher.exe. Delete your current version on mcbe (Take backups of your worlds).
 and double click on the appx file that you downloaded!
 
 To find your worlds, paste this in your search bar:
@@ -28,8 +19,6 @@ Report any issues/problems in issues
 + 1.19.0 (First 1.19 version)
 + All Versions of 1.18
 
-# How to update:
-open the Update.py file. This will get the latest version (of minecraft bedrock version manager) wich will include new versions and other updates
 
 
 # Possible upcoming features:
@@ -41,7 +30,7 @@ open the Update.py file. This will get the latest version (of minecraft bedrock 
 
 
 
-Doesnt use a web browser (in progress/coming soon)
+Doesnt use a web browser (Complete)
 
 
 
@@ -66,17 +55,6 @@ Better GUI (Complete)
 
 Dark theme (Complete)
 
-
-# Manual installation of dependencies
-<strong> (It's much easier just using install_dependencies.bat instead) </strong>
-
-```
-pip3 install customtkinter
-```
-
-```
-pip3 install requests
-```
 
 
 
