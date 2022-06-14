@@ -5,7 +5,7 @@ New versions to use coming soon!
 # Notice
 
 # How to use:
-Open Launcher.exe. Delete your current version on mcbe (Take backups of your worlds).
+Open Launcher.exe (from the binary release in Releases). Delete your current version on mcbe (Take backups of your worlds).
 and double click on the appx file that you downloaded!
 
 To find your worlds, paste this in your search bar:
