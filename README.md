@@ -2,8 +2,6 @@
 You can choose multiple versions of Minecraft bedrock to play (mostly 64 bit versions)
 New versions to use coming soon!
 
-# Notice
-
 # How to use:
 Open Launcher.exe (from the binary release in Releases <<<https://github.com/nobody1256/Minecraft-Bedrock-Version-Manager/releases>>>). Delete your current version on mcbe (Take backups of your worlds).
 and double click on the appx file that you downloaded!
