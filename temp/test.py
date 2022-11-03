@@ -1,4 +1,0 @@
-#test.py
-#
-
-import os
