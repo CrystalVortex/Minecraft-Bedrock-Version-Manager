@@ -1,3 +1,4 @@
+<strong>
 # Minecraft-Bedrock-Version-Manager
 You can choose multiple versions of Minecraft bedrock to play
 New versions to use coming soon!
@@ -25,6 +26,7 @@ When Microsoft does something the downloads then this might stop working. If it 
 # Possible upcoming features:
 A preview tab where you can download preview versions of the game. </br>
 Automatic updates so you dont need to visit this page al the time. </br>
+</strong>
 
 
 
