@@ -19,7 +19,8 @@ Report any issues/problems in issues
 # Supported Versions:
 + 80% of 1.19 versions
 
-
+# Warning
+When Microsoft does something the downloads then this might stop working. If it does create an issue and I will try to get those to work again.
 
 # Possible upcoming features:
 A preview tab where you can download preview versions of the game.
