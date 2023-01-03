@@ -1,8 +1,8 @@
-<strong>
+
 # Minecraft-Bedrock-Version-Manager
 You can choose multiple versions of Minecraft bedrock to play
 New versions to use coming soon!
-
+<strong>
 # How to use:
 Open  MCVL-win_x64.exe in [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases). </br>
 
