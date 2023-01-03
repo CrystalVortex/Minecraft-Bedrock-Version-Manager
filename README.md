@@ -12,7 +12,7 @@ and open the appx file that you downloaded! (if the downloaded file doesnt end w
 To find your worlds, paste this in your search bar/button: </br>
 %LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
 
-More info can be found here: https://windowsloop.com/find-minecraft-windows-10-edition-save-location/ </br?
+More info can be found here: https://windowsloop.com/find-minecraft-windows-10-edition-save-location/ </br>
 
 Report any issues/problems in issues
 
