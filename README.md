@@ -19,11 +19,7 @@ Report any issues/problems in issues
 
 
 # Possible upcoming features:
-
-
-
-
-
+A preview tab where you can download preview versions of the game.
 
 
 
