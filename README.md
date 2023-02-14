@@ -20,7 +20,7 @@ Report any issues/problems in issues
 # ❓Supported Versions:
 + A little of 1.19 versions (for now)
 
-#⚠️Warning
+# ⚠️Warning
 Some versions are beta! This is just a testing version to make sure links dont break/expire, version 7. There are only 4 versions available right now, more in the future!
 
 </strong>
