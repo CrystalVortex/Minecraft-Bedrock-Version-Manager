@@ -26,7 +26,7 @@ Some versions are beta! This is just a testing version to make sure links dont b
 </strong>
 
 
-#🛠️ Building
+# 🛠️ Building
 Install the requirements. Cd into the folder first. </br>
 ```
 pip install -r requirements.txt
