@@ -39,3 +39,8 @@ go to: https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging for more he
 ```
 pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>/customtkinter;customtkinter/"  "launcher.py"
 ```
+
+# 📕Libraries
+Used to get download links:
+[tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx)
+
