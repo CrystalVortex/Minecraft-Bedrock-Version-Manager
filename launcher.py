@@ -14,7 +14,7 @@ from tkinter import messagebox # To tell you some info
 
 import webbrowser # Used for going to the github page to check for updates
 
-messagebox.showwarning("Warning","Some versions are Beta/Preview this is just a test version to see how it goes, press ok to continue. Enjoy")
+messagebox.showwarning("Warning","this is just a test version to see how it goes, press ok to continue. Enjoy")
 
 
 
@@ -27,7 +27,7 @@ customtkinter.set_default_color_theme("blue")
 app = customtkinter.CTk() 
 app.geometry("700x340")
 
-app.title("MCBE Version Launcher 7.0 (Testing version)") 
+app.title("MCBE Version Launcher 7.1 (last testing version)") 
 
 
 
@@ -61,7 +61,7 @@ def download_ten():
     def r(): 
         log4py.INFO("Downloading 1.19.10...")
 
-        version = Versions.get_by_version("1.19.10")
+        version = Versions.get_by_version("1.19.10.3")
         log4py.SUCCESS(version.uri)
         wget.download(version.uri)
         log4py.INFO("\n")
@@ -93,11 +93,11 @@ button.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
 button = customtkinter.CTkButton(master=app, text="Download 1.19.51.1", command=download_fifone_one)
 button.place(relx=0.5, rely=0.3, anchor=tkinter.CENTER)
 
-button = customtkinter.CTkButton(master=app, text="Download 1.19.10", command=download_fifone_one)
+button = customtkinter.CTkButton(master=app, text="Download 1.19.10", command=download_ten)
 button.place(relx=0.5, rely=0.1, anchor=tkinter.CENTER)
 
 button = customtkinter.CTkButton(master=app, text="Download 1.19.30.04", command=download_thir_for)
-button.place(relx=0.5, rely=0.1, anchor=tkinter.CENTER)
+button.place(relx=0.10, rely=0.1, anchor=tkinter.CENTER)
 
 button = customtkinter.CTkButton(master=app, text="Check for updates", command=github)
 button.place(relx=0.10, rely=0.5, anchor=tkinter.CENTER)
