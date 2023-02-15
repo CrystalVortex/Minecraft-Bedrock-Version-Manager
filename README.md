@@ -21,7 +21,7 @@ Report any issues/problems in issues
 + A little of 1.19 versions (for now)
 
 # ⚠️Warning
-Some versions are beta! This is just a testing version to make sure links dont break/expire, version 7. There are only 4 versions available right now, more in the future!
+Version 7 is is just a testing version to make sure links dont break/expire. There are only 4 versions available right now, more in the future!
 
 </strong>
 
