@@ -41,7 +41,7 @@ pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>
 ```
 
 # 📕Libraries
-Used to get download links:
+Used to get download links: </br>
 [tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx)
 UI library:
 [TomSchimansky/CustomTkinterx](https://github.com/TomSchimansky/CustomTkinter)
