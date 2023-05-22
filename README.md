@@ -18,10 +18,9 @@ More info can be found here: https://windowsloop.com/find-minecraft-windows-10-e
 Report any issues/problems in issues
 
 # ❓Supported Versions:
-+ A little of 1.19 versions (for now)
++ A few 1.19 versions (more to come)
 
-# ⚠️Warning
-Version 7 is is just a testing version to make sure links dont break/expire. There are only 4 versions available right now, more in the future!
+
 
 </strong>
 
@@ -35,7 +34,7 @@ Turning it into an exe </br>
 ```
 pip install pyinstaller
 ```
-go to: https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging for more help with the packaging part.
+go to: https://customtkinter.tomschimansky.com/documentation/packaging for more help with the packaging part.
 ```
 pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>/customtkinter;customtkinter/"  "launcher.py"
 ```
