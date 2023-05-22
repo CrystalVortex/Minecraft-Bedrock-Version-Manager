@@ -1,8 +1,8 @@
-import customtkinter #makes tkinters ui look 100x better
+import customtkinter #makes tkinter's ui look 100x better
 
-from lib.downloader.bedrock.versions import Versions #for getting links to download an appx
+from lib.downloader.bedrock.versions import Versions # for getting links to download an appx
 
-import tkinter #gui window thing
+import tkinter # gui window thing
 
 from lib import log4py # a custom made logging module, find it in lib/log4py.py
 
@@ -14,7 +14,6 @@ from tkinter import messagebox # To tell you some info
 
 import webbrowser # Used for going to the github page to check for updates
 
-messagebox.showwarning("Warning","this is just a test version to see how it goes, press ok to continue. Enjoy")
 
 
 
@@ -27,7 +26,7 @@ customtkinter.set_default_color_theme("blue")
 app = customtkinter.CTk() 
 app.geometry("700x340")
 
-app.title("MCBE Version Launcher 7.1 (last testing version)") 
+app.title("MCBE Version Launcher 7.2") 
 
 
 
@@ -70,18 +69,19 @@ def download_ten():
     thread.start()
     messagebox.showinfo("See download progress","Check the console aka terminal to see download progress!")
 
-def download_thir_for():
-    def r(): 
-        log4py.INFO("Downloading 1.19.30.04...")
 
-        version = Versions.get_by_version("1.19.30.04")
+def eighty_ot():
+    def r():
+        log4py.INFO("Downloading 1.19.80.2...")
+        version = Versions.get_by_version("1.19.80.2")
         log4py.SUCCESS(version.uri)
         wget.download(version.uri)
         log4py.INFO("\n")
         log4py.SUCCESS("Download complete")
     thread = threading.Thread(target=r)
     thread.start()
-    messagebox.showinfo("See download progress","Check the console aka terminal to see download progress!")
+
+
 
 def github():
     webbrowser.open_new_tab("https://github.com/CrystalVortex/Minecraft-Bedrock-Version-Manager")
@@ -96,8 +96,9 @@ button.place(relx=0.5, rely=0.3, anchor=tkinter.CENTER)
 button = customtkinter.CTkButton(master=app, text="Download 1.19.10", command=download_ten)
 button.place(relx=0.5, rely=0.1, anchor=tkinter.CENTER)
 
-button = customtkinter.CTkButton(master=app, text="Download 1.19.30.04", command=download_thir_for)
-button.place(relx=0.10, rely=0.1, anchor=tkinter.CENTER)
+button = customtkinter.CTkButton(master=app, text="Download 1.19.80.02", command=eighty_ot)
+button.place(relx=0.10, rely=0.2, anchor=tkinter.CENTER)
+
 
 button = customtkinter.CTkButton(master=app, text="Check for updates", command=github)
 button.place(relx=0.10, rely=0.5, anchor=tkinter.CENTER)
