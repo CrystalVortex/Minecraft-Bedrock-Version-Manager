@@ -18,26 +18,28 @@ More info can be found here: https://windowsloop.com/find-minecraft-windows-10-e
 Report any issues/problems in issues
 
 # ❓Supported Versions:
-+ A few 1.19 versions (more to come)
-
++ 1.19 Versions
++ 1.20 Versions
 
 
 </strong>
 
 
 # 🛠️ Building
-Install the requirements. Cd into the folder first. </br>
+Install the requirements. Cd into the root folder first. </br>
 ```
-pip install -r requirements.txt
+pip install -r willow/build-requirements/requirements.txt
 ```
 Turning it into an exe </br>
 ```
 pip install pyinstaller
 ```
-go to: https://customtkinter.tomschimansky.com/documentation/packaging for more help with the packaging part.
+
 ```
-pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>/customtkinter;customtkinter/"  "launcher.py"
+.\willow.exe --compile .
 ```
+
+Navigate to dist or go to willow/builds
 
 # 📕Libraries
 Used to get download links: </br>
