@@ -46,3 +46,5 @@ Used to get download links: </br>
 [tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx) </br>
 UI library: </br>
 [TomSchimansky/CustomTkinterx](https://github.com/TomSchimansky/CustomTkinter) </br>
+Basic build system: </br>
+[CrystalVortex/Willow](https://github.com/CrystalVortex/Willow)
