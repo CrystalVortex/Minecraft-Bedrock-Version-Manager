@@ -1,4 +1,0 @@
-customtkinter
-colorama
-termcolor
-wget
