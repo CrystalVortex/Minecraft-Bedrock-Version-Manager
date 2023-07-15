@@ -28,7 +28,7 @@ Report any issues/problems in issues
 # 🛠️ Building
 Install the requirements. Cd into the root folder first. </br>
 ```
-pip install -r willow/build-requirements/requirements.txt
+pip install -r requirements.txt
 ```
 Turning it into an exe </br>
 ```
@@ -36,15 +36,11 @@ pip install pyinstaller
 ```
 
 ```
-.\willow.exe --compile .
+pyinstaller --onefile MBVL.py
 ```
 
-Navigate to dist or go to willow/builds
+Navigate to dist 
 
 # 📕Libraries
 Used to get download links: </br>
 [tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx) </br>
-UI library: </br>
-[TomSchimansky/CustomTkinterx](https://github.com/TomSchimansky/CustomTkinter) </br>
-Basic build system: </br>
-[CrystalVortex/Willow](https://github.com/CrystalVortex/Willow)
