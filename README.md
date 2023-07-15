@@ -2,12 +2,12 @@
 
 Manage multiple versions of Minecraft Bedrock Edition with ease.
 
-## Features
+## ⬆️Features
 - Choose from a variety of Minecraft Bedrock versions to play.
 - Simple and straightforward installation process.
 - Support for upcoming versions.
 
-## Usage
+## 🕹️Usage
 
 1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
 2. Open `launcher.exe`.
@@ -19,13 +19,13 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
    For more information on finding the Minecraft Windows 10 Edition save location, refer to [this guide](https://windowsloop.com/find-minecraft-windows-10-edition-save-location/).
 7. If you encounter any issues or problems, please report them in the issues section of this repository.
 
-## Supported Versions
+## 📃Supported Versions
 
 Currently, the following versions are supported:
 - All 1.19 versions
 - All 1.20 versions
 
-## Building
+## 🔨Building
 
 To build the project locally, follow these steps:
 
@@ -37,7 +37,7 @@ To build the project locally, follow these steps:
    `pyinstaller --onefile MBVL.py`
 4. Navigate to the `dist` directory to find the generated executable.
 
-## Libraries
+## 📚Libraries
 
 The following library was used to obtain download links:
 - [tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx)
