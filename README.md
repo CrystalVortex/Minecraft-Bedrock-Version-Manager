@@ -1,46 +1,45 @@
+# Minecraft Bedrock Version Manager
 
-# Minecraft-Bedrock-Version-Manager
-You can choose multiple versions of Minecraft bedrock to play
-New versions to use coming soon!
-<strong>
-# ❗How to use:
-Open  launcher.exe in [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases). </br>
+Manage multiple versions of Minecraft Bedrock Edition with ease.
 
-Delete your current version on mcbe (Take backups of your worlds). </br>
+## Features
+- Choose from a variety of Minecraft Bedrock versions to play.
+- Simple and straightforward installation process.
+- Support for upcoming versions.
 
-and open the appx file that you downloaded! (if the downloaded file doesnt end with a .appx at the end just add it eg: app.appx) </br>
+## Usage
 
-To find your worlds, paste this in your search bar/button: </br>
-%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds
+1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
+2. Open `launcher.exe`.
+3. Before proceeding, ensure that you have taken backups of your worlds.
+4. Delete your current Minecraft Bedrock version.
+5. Open the downloaded `.appx` file. If the downloaded file doesn't have a `.appx` extension, simply add it at the end of the file name (e.g., `app.appx`).
+6. To find your worlds, paste the following path in your file explorer's search bar/button:
+   `%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
+   For more information on finding the Minecraft Windows 10 Edition save location, refer to [this guide](https://windowsloop.com/find-minecraft-windows-10-edition-save-location/).
+7. If you encounter any issues or problems, please report them in the issues section of this repository.
 
-More info can be found here: https://windowsloop.com/find-minecraft-windows-10-edition-save-location/ </br>
+## Supported Versions
 
-Report any issues/problems in issues
+Currently, the following versions are supported:
+- All 1.19 versions
+- All 1.20 versions
 
-# ❓Supported Versions (Currently 25):
-+ ALL 1.19 Versions
-+ ALL 1.20 Versions
+## Building
 
+To build the project locally, follow these steps:
 
-</strong>
+1. Install the required dependencies by running the following command from the root folder:
+   `pip install -r requirements.txt`
+2. To turn the project into an executable, install PyInstaller:
+   `pip install pyinstaller`
+3. Generate the executable by running:
+   `pyinstaller --onefile MBVL.py`
+4. Navigate to the `dist` directory to find the generated executable.
 
+## Libraries
 
-# 🛠️ Building
-Install the requirements. Cd into the root folder first. </br>
-```
-pip install -r requirements.txt
-```
-Turning it into an exe </br>
-```
-pip install pyinstaller
-```
+The following library was used to obtain download links:
+- [tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx)
 
-```
-pyinstaller --onefile MBVL.py
-```
-
-Navigate to dist 
-
-# 📕Libraries
-Used to get download links: </br>
-[tinytengu/python-bedrock-appx](https://github.com/tinytengu/python-bedrock-appx) </br>
+Feel free to contribute to this project or report any issues you encounter.
