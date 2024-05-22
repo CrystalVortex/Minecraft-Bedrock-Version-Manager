@@ -11,7 +11,7 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
 
 1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
 2. Open `launcher.exe`.
-3. Before proceeding, ensure that you have taken backups of your worlds.
+3. Before proceeding, ensure that you have taken backups of your worlds, mods, and anything else that you think is important.
 4. Delete your current Minecraft Bedrock version.
 5. Open the downloaded `.appx` file. If the downloaded file doesn't have a `.appx` extension, simply add it at the end of the file name (e.g., `app.appx`).
 6. To find your worlds, paste the following path in your file explorer's search bar/button:
