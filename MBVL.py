@@ -2,8 +2,6 @@ from python_bedrock_appx.bedrock.versions import Versions
 
 import requests
 
-import os
-
 import webbrowser
 
 file = open("generated_versions.html",mode="w")
@@ -43,7 +41,7 @@ file.write("""
 """)
         
 
-print("Loading...")
+print("Loading, this may take up to 5+ minutes.")
 
 url = "https://raw.githubusercontent.com/CrystalVortex/Minecraft-Bedrock-Version-Manager/main/versions.txt"
 response = requests.get(url, headers={'Cache-Control': 'no-cache'})
@@ -53,15 +51,15 @@ html_content = response.text
 # Split the HTML content by lines and iterate over them
 lines = html_content.split('\n')
 for i, line in enumerate(lines, start=1):
-    line = line.strip()  # Remove leading and trailing whitespace
+    line = line.strip() 
     if line:  # Check if the line is not empty after stripping
         version = Versions.get_by_version(line)
-        print(line+" <- Searching")
+        print("Version: "+line+" <- Found Link")
         file.write(f"""
 <a href={version.uri} target="_blank">                   
 <button>{line}</button>
 </a>
 """)
-    file.write("</body>\n</html>")
+    file.write("\n<button href='minecraft://'>Launch Minecraft</button>\n</body>\n</html>")
 
 webbrowser.open("generated_versions.html")
