@@ -21,9 +21,7 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
 
 ## 📃Supported Versions
 
-Currently, the following versions are supported:
-- All 1.19 versions
-- All (and upcoming) 1.20 versions
+- All versions of Bedrock are available from 0.13.0.0 to the latest.
 
 ## 🔨Building
 
