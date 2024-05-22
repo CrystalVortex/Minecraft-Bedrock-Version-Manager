@@ -16,7 +16,7 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
 5. Open the downloaded `.appx` file. If the downloaded file doesn't have a `.appx` extension, simply add it at the end of the file name (e.g., `app.appx`).
 6. To find your worlds, paste the following path in your file explorer's search bar/button:
    `%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
-   For more information on finding the Minecraft Windows 10 Edition save location, refer to [this guide](https://windowsloop.com/find-minecraft-windows-10-edition-save-location/).
+   For more information on finding the Minecraft Windows 10/11 Edition save location, refer to [this guide](https://windowsloop.com/find-minecraft-windows-10-edition-save-location/).
 7. If you encounter any issues or problems, please report them in the issues section of this repository.
 
 ## 📃Supported Versions
