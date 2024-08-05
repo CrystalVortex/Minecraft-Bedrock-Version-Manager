@@ -1,9 +1,6 @@
 # Minecraft Bedrock Version Manager
 
 Manage multiple versions of Minecraft Bedrock Edition with ease.
-![image](https://github.com/user-attachments/assets/163c90f3-81ec-4bfb-ba43-3ea6fd538334)
-![image](https://github.com/user-attachments/assets/a3794102-44ca-4e8b-bc64-a45d72b15a7b)
-
 
 ## ⬆️Features
 - Choose from a variety of Minecraft Bedrock versions to play.
