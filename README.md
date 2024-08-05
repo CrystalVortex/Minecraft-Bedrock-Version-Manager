@@ -17,7 +17,7 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
    `%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
   
 ## 🕹️Usage
-1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
+1. Download the latest pre-release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
 2. Open `launcher.exe`.
 3. Before proceeding, ensure that you have taken backups of your worlds, mods, and anything else that you think is important.
 4. Click Choose Version at the bottom navigation bar
