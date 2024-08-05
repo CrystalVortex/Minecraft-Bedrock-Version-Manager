@@ -1,28 +1,29 @@
-# Minecraft Bedrock Version Manager
+# Minecraft Bedrock Version Manager Version 9 Test
 
 Manage multiple versions of Minecraft Bedrock Edition with ease.
 
 ## ⬆️Features
 - Choose from a variety of Minecraft Bedrock versions to play.
 - Simple and straightforward installation process.
-- Support for upcoming versions.
+- Support for all versions (including betas/previews)
 
+## ⚠ Warning!
+- All mods, worlds and any content in your current minecraft version, will be deleted when using this launcher!
+- To find your worlds, paste the following path in your file explorer's search bar/button:
+   `%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
+  
 ## 🕹️Usage
-
 1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
 2. Open `launcher.exe`.
 3. Before proceeding, ensure that you have taken backups of your worlds, mods, and anything else that you think is important.
-4. Delete your current Minecraft Bedrock version.
-5. Open the downloaded `.appx` file. If the downloaded file doesn't have a `.appx` extension, simply add it at the end of the file name (e.g., `app.appx`).
-6. To find your worlds, paste the following path in your file explorer's search bar/button:
-   `%LocalAppData%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
-   For more information on finding the Minecraft Windows 10/11 Edition save location, refer to [this guide](https://windowsloop.com/find-minecraft-windows-10-edition-save-location/).
-7. If you encounter any issues or problems, please report them in the issues section of this repository.
-
+4. Click Choose Version at the bottom navigation bar
+5. Enter the version name you want (This includes any preview), then click install (this will take a while)
+6. When the "Installing, this may take a few minutes!" is gone, you can back
+7. Click play and enjoy!
+   
 ## 📃Supported Versions
 
-- All versions of Bedrock are available from 0.13.0.0 to the latest.
-- All Beta/Preview versions
+- All release versions, all betas/previews the moment they come out.
 
 ## 🔨Building
 
@@ -33,7 +34,7 @@ To build the project locally, follow these steps:
 2. To turn the project into an executable, install PyInstaller:
    `pip install pyinstaller`
 3. Generate the executable by running:
-   `pyinstaller --onefile MBVL.py`
+   `pyinstaller --noconfirm --onedir --console --icon "INSERT-ICON-ICO-PATH-HERE" --name "MBVL" --add-data "LauncherData;LauncherData/" --add-data "MinecraftBedrock;MinecraftBedrock/"  "launcher.py"`
 4. Navigate to the `dist` directory to find the generated executable.
 
 ## 📚Libraries
