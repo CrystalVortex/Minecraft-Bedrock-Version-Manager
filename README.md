@@ -9,7 +9,7 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
 
 ## 🕹️Usage
 
-1. Download the latest pre-release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
+1. Download the latest release from [Releases](https://github.com/crystalvortex/Minecraft-Bedrock-Version-Manager/releases).
 2. Open `launcher.exe`.
 3. Before proceeding, ensure that you have taken backups of your worlds, mods, and anything else that you think is important.
 4. Delete your current Minecraft Bedrock version.
