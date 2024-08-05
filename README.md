@@ -18,8 +18,8 @@ Manage multiple versions of Minecraft Bedrock Edition with ease.
 3. Before proceeding, ensure that you have taken backups of your worlds, mods, and anything else that you think is important.
 4. Click Choose Version at the bottom navigation bar
 5. Enter the version name you want (This includes any preview), then click install (this will take a while)
-6. When the "Installing, this may take a few minutes!" is gone, you can back
-7. Click play and enjoy!
+6. When the "Installing, this may take a few minutes!" is gone, you can click the "Choose" button on your chosen version, then click "Back".
+7. Click play and enjoy on the main launcher screen!
    
 ## 📃Supported Versions
 
