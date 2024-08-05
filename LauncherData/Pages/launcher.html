@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher</title>
+</head>
+<body style="background-color: black;margin: 0px;">
+    <style>
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .nav_bottom {
+            position: absolute;
+            width: 100%;
+            height: 10%;
+            bottom: 0px;
+            z-index: 1000;
+            background-color: rgba(20, 20, 20, 0.2);
+            backdrop-filter: blur(35px);
+        }
+
+        .btnplay {
+            transition: 0.2s;
+            position: absolute;
+            width: 25%;
+            height: 80%;
+            background-color:  #2cff8b;
+            border: 0px;
+            border-radius: 8px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+            left: 70%;
+            top: 10%;
+        }
+
+        .btnplay:active {
+            transition: 0.0s !important;
+            opacity: 45%;
+        }
+
+        h3 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #2cff8b;
+            transition: 0.2s;
+            top: -1.5px;
+            left: 15%;
+            position: absolute;
+        }
+
+        h3:active {
+            transition: 0.0s !important;
+            opacity: 25%;
+        }
+    </style>
+    <iframe src="https://www.youtube.com/embed/NG-5L34HqOs?autoplay=1&loop=1&mute=1&modestbranding=1&iv_load_policy=3&controls=0&disablekb=1&fs=0&rel=0" frameborder="0"></iframe>
+    <div class="nav_bottom">
+        <button onclick="window.location.href='http://localhost:5000/launch'" class="btnplay">PLAY</button>
+        <h3 onclick="window.location.href='http://localhost:5000/versions'">Choose Version</h3>
+    </div>
+</body>
+</html>
